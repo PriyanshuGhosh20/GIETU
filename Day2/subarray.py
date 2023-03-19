@@ -1,11 +1,10 @@
 start=int(input())
 end=int(input())
-
-#1List Comprehension
 arr=[]
 for i in range(start,end+1):
     arr.append(i)
 print(arr)
+#List Comprehension
 #arr = [i for i in range(start,end+1)]
 #print(arr) #[1,2,3]
 sub=[]
